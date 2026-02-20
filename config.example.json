@@ -1,0 +1,11 @@
+{
+  "url": "rtsp://192.168.1.1:554/",
+  "vendor": ["hikvision", "dahua"],
+  "vendor-defaults": true,
+  "workers": 8,
+  "timeout": 5,
+  "output": "found.txt",
+  "json": "report.json",
+  "quiet": false,
+  "verbose": false
+}

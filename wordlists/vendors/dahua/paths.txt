@@ -1,0 +1,4 @@
+cam/realmonitor?channel=1&subtype=0
+cam/realmonitor?channel=1&subtype=1
+cam/realmonitor?channel=2&subtype=0
+cam/realmonitor?channel=2&subtype=1
