@@ -44,3 +44,6 @@ Authorized dry-run example:
 
 [Packaged] - Debian/Kali package metadata is included upstream and builds the
 `rtsp-brute-force-tool` binary package.
+
+After Kali creates the issue, configure
+[status notifications](kali-status-notifications.md).
