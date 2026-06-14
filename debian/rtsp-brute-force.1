@@ -1,0 +1,35 @@
+.TH RTSP-BRUTE-FORCE 1 "June 2026" "rtsp-brute-force-tool 3.0.0" "User Commands"
+.SH NAME
+rtsp-brute-force \- assess RTSP credential security
+.SH SYNOPSIS
+.B rtsp-brute-force
+.RI [ options ]
+.SH DESCRIPTION
+RTSP Brute Force Tool performs authorized RTSP credential-security assessments
+with camera-vendor presets, configurable stream paths, rate limiting, parallel
+workers, and machine-readable reports.
+.SH OPTIONS
+.TP
+.BR \-u ", " \-\-url " " URL
+Set the target RTSP URL.
+.TP
+.BR \-V ", " \-\-vendor " " NAME
+Use a camera-vendor preset.
+.TP
+.B \-\-vendor-defaults
+Use the selected vendor's default credentials.
+.TP
+.B \-\-dry-run
+Show the planned task count without connecting to the target.
+.TP
+.B \-\-list-vendors
+List available vendor presets.
+.TP
+.B \-\-help
+Show complete command-line help.
+.SH EXAMPLE
+.B rtsp-brute-force -u rtsp://192.0.2.10:554/ -V hikvision --vendor-defaults --dry-run
+.SH AUTHOR
+Andrey Pautov <1200km@gmail.com>
+.SH LICENSE
+GPL-3.0

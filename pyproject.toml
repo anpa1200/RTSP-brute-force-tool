@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rtsp-brute-force-tool"
+version = "3.0.0"
+description = "Authorized RTSP credential-security assessment tool with vendor presets."
+readme = "README.md"
+license = "GPL-3.0-only"
+authors = [{ name = "Andrey Pautov", email = "1200km@gmail.com" }]
+requires-python = ">=3.9"
+keywords = ["camera-security", "pentesting", "rtsp", "security"]
+classifiers = [
+  "Environment :: Console",
+  "Programming Language :: Python :: 3",
+  "Topic :: Security",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.6"]
+
+[project.scripts]
+rtsp-brute-force = "RTSP_bruteforce:main"
+
+[project.urls]
+Homepage = "https://github.com/anpa1200/RTSP-brute-force-tool"
+Documentation = "https://medium.com/@1200km/cracking-rtsp-security-a-comprehensive-guide-to-using-the-rtsp-brute-force-tool-ad1c29b9e5ee"
+Repository = "https://github.com/anpa1200/RTSP-brute-force-tool"
+
+[tool.setuptools]
+py-modules = ["RTSP_bruteforce", "rtsp_vendors"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py39"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP"]
+ignore = ["E501"]

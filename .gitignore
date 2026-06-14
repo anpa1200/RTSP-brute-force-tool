@@ -5,6 +5,12 @@ __pycache__/
 .venv/
 venv/
 .env
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.pybuild/
 
 # IDE / OS
 .idea/

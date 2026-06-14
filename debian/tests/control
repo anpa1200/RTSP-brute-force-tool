@@ -1,0 +1,3 @@
+Test-Command: rtsp-brute-force --version && rtsp-brute-force --list-vendors
+Depends: @
+Restrictions: superficial
