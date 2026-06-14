@@ -1,5 +1,0 @@
-rtsp-brute-force-tool (3.0.0-0kali1) kali-dev; urgency=medium
-
-  * Initial release for Kali Linux.
-
- -- Andrey Pautov <1200km@gmail.com>  Sun, 14 Jun 2026 08:45:00 +0300

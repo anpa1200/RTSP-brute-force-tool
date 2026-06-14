@@ -1,0 +1,6 @@
+.debhelper/
+debhelper-build-stamp
+files
+rtsp-brute-force-tool/
+*.debhelper
+*.substvars

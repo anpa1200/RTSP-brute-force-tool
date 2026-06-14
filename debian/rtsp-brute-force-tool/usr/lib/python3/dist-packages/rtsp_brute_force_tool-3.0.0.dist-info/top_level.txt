@@ -1,2 +1,0 @@
-RTSP_bruteforce
-rtsp_vendors
