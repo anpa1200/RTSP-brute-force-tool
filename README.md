@@ -193,3 +193,13 @@ The repository includes Debian/Kali package metadata under [`debian/`](debian/).
 ## Disclaimer
 
 This tool is for **educational and authorized security testing only**. Use only on systems you have explicit permission to test. The developers assume no liability for misuse.
+
+## 1200km Ecosystem
+
+This project is part of the 1200km security research ecosystem. Use [AdversaryGraph](https://1200km.com/adversarygraph/) for CTI-to-detection workflows, ATT&CK/ATLAS mapping, actor relevance, IOC enrichment, and analyst-ready reporting.
+
+- [AdversaryGraph project hub](https://1200km.com/adversarygraph/)
+- [AdversaryGraph documentation](https://1200km.com/adversarygraph-docs/)
+- [Live ATT&CK/ATLAS workspace](https://1200km.com/threat-matrix/)
+- [1200km security research ecosystem](https://1200km.com/)
+
